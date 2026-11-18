@@ -4,7 +4,7 @@
 - https://www.instagram.com/p/Dewbj1ZFvUj/
 - 本人指定の6枚目（Style 04 One-line Art）を目視で重点確認
 - 表紙：「7 Motion Style Prompts with Claude Opus 5.5」
-- 関連：notes/2026-10-29-claude-motion-graphics-prompts.md（claudetipsandtricksの作り方6プロンプトと対）
+- 関連：../../ai-skills/notes/2026-10-29-claude-motion-graphics-prompts.md（claudetipsandtricksの作り方6プロンプトと対）
 
 ## 制作ワークフロー（2枚目）
 

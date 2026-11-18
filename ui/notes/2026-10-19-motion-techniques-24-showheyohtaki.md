@@ -50,4 +50,4 @@
 
 - 核は「演出には名前があり、名前で頼めば AI が再現できる」という語彙の整備。イージング8種（notes/2026-11-14-easing-8-me20.md）の「カーブ名で指定できる」と同じ発想で、対象がイージングからモーション演出全般に広がった版
 - 作者はこの「名前」の体系をライブラリ「Motion Prompt」として公開している（https://showheyohtaki.github.io/motion-prompt/ 、GitHub: showheyohtaki/motion-prompt、MIT）。モーショングラフィックス／カメラワーク／UIパーツ／LP・Webサイトの演出／写真の表現の5分野・120個の動く見本つきで、Claude Code や Codex には Skill として導入できる（`npx skills add showheyohtaki/motion-prompt`、作者の別投稿で案内を確認）
-- 第1弾は未収録（この投稿は第2弾）。関連ノート: notes/2026-10-29-claude-motion-graphics-prompts.md、notes/2026-10-29-claude-motion-styles-7.md
+- 第1弾は未収録（この投稿は第2弾）。関連ノート: ../../ai-skills/notes/2026-10-29-claude-motion-graphics-prompts.md、notes/2026-10-29-claude-motion-styles-7.md
