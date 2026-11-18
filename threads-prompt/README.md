@@ -5,14 +5,13 @@ Threads（および一部 Instagram）で見つけた AI 画像・動画プロ�
 
 画像付きの一覧は [index.html](index.html)（GitHub 上ではファイルを開くとソース表示になるため、ブラウザで見たい場合はダウンロードして開く）。
 
-## ノート一覧（2026-11-08）
+## ノート一覧（2026-11-08時点・一部のみ。2026-11-17 の再採番に合わせて番号とリンクを更新）
 
 | # | タイトル | 投稿者 | ノート |
 |---|----------|--------|--------|
-| 1 | LOVE 4コマ（手の形で L-O-V-E） | 一神 優希 @yuuki.ichikami | [notes/01-yuuki-love-4panel.md](notes/01-yuuki-love-4panel.md) |
-| 2 | プロンプトだけで K-POP ダンス動画 | @rinaauliii | [notes/02-rinaauliii-kpop-dance.md](notes/02-rinaauliii-kpop-dance.md) |
-| 3 | ミニキャラシートメーカー | こと @koto_witch | [notes/03-koto-mini-character-sheet.md](notes/03-koto-mini-character-sheet.md) |
-| 4 | ファーコートのグラマーポートレート | @reactor_art | [notes/04-reactor-fur-coat-portrait.md](notes/04-reactor-fur-coat-portrait.md) |
-| 5 | 夕日のベンチ（Meta vs Gemini 比較） | ARIF N STUDIOS @arifnuryono87 | [notes/05-arif-bench-meta-vs-gemini.md](notes/05-arif-bench-meta-vs-gemini.md) |
-| 6 | マクロ・ビューティーポートレート | Gülben @gulbens.blog | [notes/06-gulben-macro-beauty.md](notes/06-gulben-macro-beauty.md) |
-| 7 | Instant 8K アップスケール（Nano Banana Prompt）※Instagram | Rose @rosedoesai | [notes/07-rosedoesai-8k-upscale-prompt.md](notes/07-rosedoesai-8k-upscale-prompt.md) |
+| 1 | プロンプトだけで K-POP ダンス動画 | @rinaauliii | [notes/01-rinaauliii-kpop-dance.md](notes/01-rinaauliii-kpop-dance.md) |
+| 2 | ミニキャラシートメーカー | こと @koto_witch | [notes/02-koto-mini-character-sheet.md](notes/02-koto-mini-character-sheet.md) |
+| 3 | ファーコートのグラマーポートレート | @reactor_art | [notes/03-reactor-fur-coat-portrait.md](notes/03-reactor-fur-coat-portrait.md) |
+| 4 | 夕日のベンチ（Meta vs Gemini 比較） | ARIF N STUDIOS @arifnuryono87 | [notes/04-arif-bench-meta-vs-gemini.md](notes/04-arif-bench-meta-vs-gemini.md) |
+| 5 | マクロ・ビューティーポートレート | Gülben @gulbens.blog | [notes/05-gulben-macro-beauty.md](notes/05-gulben-macro-beauty.md) |
+| 6 | Instant 8K アップスケール（Nano Banana Prompt）※Instagram | Rose @rosedoesai | [notes/06-rosedoesai-8k-upscale-prompt.md](notes/06-rosedoesai-8k-upscale-prompt.md) |
