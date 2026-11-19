@@ -27,7 +27,7 @@
 </style></head><body>
 <header>
   <h1>learn-ai-skills / muse</h1>
-  <div class="sub">Skill・AI系 Instagram 投稿の要約一覧（全151件）。各カードに画像・元ネタURL・ノートへのリンク付き。</div>
+  <div class="sub">Skill・AI系 Instagram 投稿の要約一覧（全156件）。各カードに画像・元ネタURL・ノートへのリンク付き。</div>
 </header>
 <div class="search"><input id="q" type="search" placeholder="キーワード検索（タイトル・作者・内容）"></div>
 <main class="grid" id="grid">
@@ -1841,6 +1841,66 @@
     <div class="links">
       <a href="https://www.instagram.com/reel/DfbxoyOTx4A/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
       <a href="notes/2026-11-07-DfbxoyOTx4A.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="claude fable 5.2＋tradingviewで作るaiトレード環境（チャート画像ではなくインジケーター情報を読ませる）べーた @foodloss_otoko（専業トレーダー）x投稿（添付は縦長動画1件、内容はサムネイル範囲のみ確認）。ポイントは「ai にチャート画像を見せるのではなく、tradingview 上のインジケーター情報を直接読ませる」こと。インジケーター側が確定ローソク足ごとに long スコア／short スコア／エントリー／損切り／利確を計算し、claude code 側に渡して long／short／wait を判断させる。損切り・利確の位置、サイズ、根拠も claude が提示し、過去チャートでの自動検証までつなげる構成。成績の主張（勝率55%・pf 2.19・+4.5%、btc 1時間足、2026-11-01〜18）は投稿内表記で裏取りなし。自己返信で github リポジトリ2件（実在確認済み）: tradesdontlie/tradingview-mcp（7.2k stars、claude code を tradingview desktop に chrome devtools protocol 経由で接続する mcp ブリッジ、取引執行はしない）と roan-maverick/tradingview-indicator-for-ai-agents（312 stars、mit、pine script v6、確定足ごとに各種指標と long／short スコアを json パケットで ai に送るインジケーター）。返信は全3件中、自己返信1件のみ取得、残り2件はログイン壁の先で未確認。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-19 ・ べーた @foodloss_otoko</div>
+    <h2>Claude Fable 5.2＋TradingViewで作るAIトレード環境（チャート画像ではなくインジケーター情報を読ませる）</h2>
+    <p>X投稿（添付は縦長動画1件、内容はサムネイル範囲のみ確認）で紹介された、Claude Fable 5.2 と TradingView を組み合わせたAIトレード環境。ポイントは「AI にチャート画像を見せるのではなく、TradingView 上のインジケーター情報を直接読ませる」こと。インジケーター側が確定ローソク足ごとに LONG スコア／SHORT スコア／エントリー／損切り／利確を計算し、Claude Code 側に渡して LONG／SHORT／WAIT を判断させる。損切り・利確の位置、サイズ、根拠も Claude が提示し、過去チャートでの自動検証までつなげる構成。成績の主張（勝率55%・PF 2.19・+4.5%、BTC 1時間足、2026-11-01〜18）は投稿内表記で裏取りなし。自己返信で GitHub リポジトリ2件（実在確認済み）: tradesdontlie/tradingview-mcp（7.2k stars、Claude Code を TradingView Desktop に Chrome DevTools Protocol 経由で接続する MCP ブリッジ、取引執行はしない）と roan-maverick/tradingview-indicator-for-ai-agents（312 stars、MIT、Pine Script v6、確定足ごとに各種指標と LONG／SHORT スコアを JSON パケットで AI に送るインジケーター）。返信は全3件中、自己返信1件のみ取得、残り2件はログイン壁の先で未確認。</p>
+    <div class="links">
+      <a href="https://x.com/foodloss_otoko/status/2123090243780018449" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-19-2123090243780018449.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="claude公式プラグイン・マーケットプレイスと「中小企業のチームを置き換える」7選mika @mika_systemsx投稿（添付は無音の動画1件、532プラグインのインタラクティブマップの画面録画）。claude の公式プラグイン・マーケットプレイス（claude.com/marketplace/plugins、実在確認済み）の紹介で、「anthropic がプラグイン532件を無料公開し、stripe／shopify／canva／blackrock／hubspot が自ら claude 向けに構築。ceo の dario amodei が『中小企業のチーム全体を置き換える7選』を選んだ」という触れ込み。7選は ①bookkeeper（quickbooks、p&l を読み期限超過の請求書を催促）②payments dev（stripe、チェックアウト・サブスク・返金を組み込む）③store manager（shopify、18スキルでストア全体を構築・運用）④designer（canva、デザイン作成・リサイズ・ブランドチェック）⑤sales rep（hubspot、通話準備と朝のブリーフ）⑥lawyer（legalzoom、契約書のリスク条項をフラグ）⑦ops（zapier、claude を8,000超のアプリに接続）。導入は claude code で /plugin → ツールを検索 → install して1回ログイン → 平易な言葉で指示（例: chase every invoice older than 30 days）。「532件」「月$38,400のチーム」「dario が選んだ7選」は投稿内表記で裏取りなし。自己返信は未確認。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-19 ・ Mika @mika_systems</div>
+    <h2>Claude公式プラグイン・マーケットプレイスと「中小企業のチームを置き換える」7選</h2>
+    <p>X投稿（添付は無音の動画1件、532プラグインのインタラクティブマップの画面録画）で紹介された、Claude の公式プラグイン・マーケットプレイス（claude.com/marketplace/plugins、実在は確認済み）。触れ込みは「Anthropic がプラグイン532件を無料公開し、Stripe／Shopify／Canva／BlackRock／HubSpot が自ら Claude 向けに構築。CEO の Dario Amodei が『中小企業のチーム全体を置き換える7選』を選んだ」というもの。7選は ①bookkeeper（QuickBooks、P&L を読み期限超過の請求書を催促）②payments dev（Stripe、チェックアウト・サブスク・返金をアプリに組み込む）③store manager（Shopify、18スキルでストア全体を構築・運用）④designer（Canva、デザイン作成・リサイズ・ブランドチェック）⑤sales rep（HubSpot、通話準備と朝のブリーフ作成）⑥lawyer（LegalZoom、契約書のリスク条項をフラグ）⑦ops（Zapier、Claude を8,000超のアプリに接続）。導入手順は Claude Code で <code>/plugin</code> → 使っているツールを検索 → install して1回ログイン → 最初の仕事を平易な言葉で指示（例: "chase every invoice older than 30 days"）。なお「532件」「月$38,400のチーム」「Dario が選んだ7選」は投稿内表記で裏取りなし。自己返信は未確認（返信13件中、ログインなしで見えた範囲に作者の返信なし）。</p>
+    <div class="links">
+      <a href="https://x.com/mika_systems/status/2123133007208812915" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-19-2123133007208812915.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="マウスを目で追う猫サイトの作り方（codex＋seedance 2.5、動画を241コマに分解して切り替え）asei｜ai × クリエイティブ @asei_ikarashithreads の動画投稿。2匹の猫がマウスカーソルの方向を目で追うウェブサイトを、ai生成の動画1本から作る手順。①codex で猫の写真から正面を向いた2匹の画像を作る。②seedance 2.5 で「いろんな方向を見る」10秒の動画にする。③codex で動画を241コマに分割し、マウスの方向を一番よく見ているコマに切り替えるサイトを構築。作者の自己コメント: サイトは動画を再生するのではなくコマを切り替えて動かしている。スマホでは触れた位置を目で追う。コストは動画30クレジット（約240円）、画像とサイトは codex の契約内で追加費用0円（いずれも投稿内表記・裏取りなし）。プロンプト全文は自己コメント添付の画像内にあり未回収（コピーボタン対象外）。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-19 ・ ASEI｜AI × クリエイティブ @asei_ikarashi</div>
+    <h2>マウスを目で追う猫サイトの作り方（Codex＋Seedance 2.5、動画を241コマに分解して切り替え）</h2>
+    <p>Threads の動画投稿。2匹の猫がマウスカーソルの方向を目で追うウェブサイトを、AI生成の動画1本から作る手順の紹介。① Codex で、猫の写真から正面を向いた2匹の画像を作る。② Seedance 2.5 で、その画像をもとに「いろんな方向を見る」10秒の動画にする。③ Codex で、その動画を241コマに分割し、マウスの方向を一番よく見ているコマに切り替えるサイトを構築する。作者の自己コメントによれば、サイトは動画を再生しているのではなくコマ（静止画）を切り替えて動かしており、スマホでは触れた位置を2匹が目で追う。コストは動画生成が30クレジット（約240円）、画像生成とサイト構築は Codex の契約内で追加費用0円だったという（いずれも投稿内表記・裏取りなし）。プロンプト全文は自己コメントに添付された画像内にあり、テキストとしては取得できなかったため未回収（コピーボタン対象外）。</p>
+    <div class="links">
+      <a href="https://www.threads.com/@asei_ikarashi/post/Df4ldvdn9sL" target="_blank" rel="noopener">元ネタ（Threads）</a>
+      <a href="notes/2026-11-18-Df4ldvdn9sL.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="after effectsなしで折り紙（ペーパークラフト）アニメーションを作る（chatgpt＋google flow）manish siwach | ai workflows @manish.build.aiリール動画（約59秒）。aiツール2つだけで、紙が折りたたまれて再び立ち上がるポップアップブック風アニメーションを作る手順。step 1 chatgptの画像生成で、風景を層状のペーパークラフト・ジオラマにした静止画を作る（作例はデリー、タージ・マハル、ニューヨーク）。step 2 その静止画をgoogle flow（omni flash系モデル）に渡し、折りたたみ→復元の動きとゆっくりした映画的カメラワークで動画化する。コツは、復元が不完全だった作例で「元のシーンに正確に戻る（return exactly to the original scene）」と再プロンプトしたら直ったこと。正確なプロンプトは「motion」コメントでdm配布。静止画化のプロンプト全文はthreads-prompt 33件目（@elchevalletta）に収録済みで、本投稿はその動画化工程。">
+  <div class="thumb"><iframe src="https://www.instagram.com/reel/DfPZC9Ezhnx/embed" loading="lazy" scrolling="no" title="After Effectsなしで折り紙（ペーパークラフト）アニメーションを作る（ChatGPT＋Google Flow）"></iframe></div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-19 ・ Manish Siwach | AI Workflows @manish.build.ai</div>
+    <h2>After Effectsなしで折り紙（ペーパークラフト）アニメーションを作る（ChatGPT＋Google Flow）</h2>
+    <p>リール動画（約59秒）。After Effects を使わず、AIツール2つで「折り紙／ペーパークラフトの飛び出す絵本」風アニメーションを作るワークフロー。Step 1: ChatGPT の画像生成で、風景を層状のペーパークラフト・ジオラマにした静止画を作る（作例はデリーのインド門など、タージ・マハル、ニューヨーク）。Step 2: その静止画を Google Flow（Omni Flash 系モデル）に渡し、紙が平らに折りたたまれて再び立ち上がる動きと、ゆっくりした映画的なカメラワークでアニメーション化する。実践的なコツとして、ニューヨークの作例で復元が不完全だった失敗を「元のシーンに正確に戻る（return exactly to the original scene）」という再プロンプトで直した事例を紹介。正確なプロンプトと設定は投稿内になく、「MOTION」とコメントすると DM で送る形式。静止画側の変換プロンプト全文は threads-prompt 33件目（@elchevalletta）に収録済みで、本投稿はその動画化工程にあたる。</p>
+    <div class="links">
+      <a href="https://www.instagram.com/reel/DfPZC9Ezhnx/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
+      <a href="notes/2026-11-02-DfPZC9Ezhnx.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="aiに頼むsnsの伸ばし方8選（役割名で指示する）マーケターおさる @osaruproducerx投稿（添付は8秒のインフォグラフィック動画）。sns投稿を ai に作らせるとき、「投稿を作って」ではなく投稿の「役割」の名前で指示する方法論。役割は8つで、認知させる→共感させる→理解させる→信用させる→行動させる、という読者の変化の順番を先に設計するのが本質という主張。各役割の ai 指示文の型は自己返信で提示: ①認知フック「読者が続けている間違った行動を指摘し、危機感→実績→結論の順で冒頭を作って」②保存投稿「手順、チェックリスト、テンプレートの形式でまとめて」③共感ストーリー「30代の会社員が心の中で感じている不安を、本人が話しているような言葉で書いて」④常識の反転「一般的な常識→その考えが間違っている理由→正しい行動の順で構成して」⑤実績訴求「実績の期間、母数、数字を冒頭3行以内に置き、その数字が生まれた理由まで説明して」⑥教育投稿「1投稿で教える内容を1つに絞り、具体例と今日できる行動まで入れて」⑦cta導線「行動を1つだけ指定して」⑧改善投稿「反応が良かった理由、弱かった部分、次回試す仮説をそれぞれ3つ出して」。実績数値（10月のインスタ経由line登録1,765人、グループ総年商30億など）は投稿内表記で裏取りなし。他者の返信は未確認。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-19 ・ マーケターおさる @osaruproducer</div>
+    <h2>AIに頼むSNSの伸ばし方8選（役割名で指示する）</h2>
+    <p>X投稿（添付は8秒のインフォグラフィック動画）で提示された、SNS投稿を AI に作らせる際の指示の出し方。「投稿を作って」と頼むのではなく、SNS投稿が担う「役割」の名前で指示するのが要点で、役割は8つ。認知させる→共感させる→理解させる→信用させる→行動させる、という読者の変化の順番を先に設計し、各段階に対応する役割の投稿を当てはめる、という主張。各役割の AI 指示文の型は作者の自己返信で提示された。①認知フック: 「読者が続けている間違った行動を指摘し、危機感→実績→結論の順で冒頭を作って」。②保存投稿: 「読者が実践時に使えるよう、手順、チェックリスト、テンプレートの形式でまとめて」。③共感ストーリー: 「30代の会社員が心の中で感じている不安を、本人が話しているような言葉で書いて」。④常識の反転: 「一般的な常識→その考えが間違っている理由→正しい行動の順で構成して」。⑤実績訴求: 「実績の期間、母数、数字を冒頭3行以内に置き、その数字が生まれた理由まで説明して」。⑥教育投稿: 「1投稿で教える内容を1つに絞り、具体例と今日できる行動まで入れて」。⑦CTA導線: 「プロフィールを見る、保存する、LINEへ登録するなど、行動を1つだけ指定して」。⑧改善投稿: 「反応が良かった理由、弱かった部分、次回試す仮説をそれぞれ3つ出して」。なお作者の実績数値（10月のインスタ経由LINE登録1,765人、グループ総年商30億、YouTube登録者50万人など）は投稿内表記で裏取りなし。自己返信の2件目は自社講座の販売停止・値上げと無料ウェビナーへの誘導（販促）。他者の返信はログイン壁の先で未確認。</p>
+    <div class="links">
+      <a href="https://x.com/osaruproducer/status/2123295959274897524" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-19-2123295959274897524.md">ノートを開く</a>
     </div>
   </div>
 </article>
