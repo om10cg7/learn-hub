@@ -27,7 +27,7 @@
 </style></head><body>
 <header>
   <h1>learn-ai-skills / muse</h1>
-  <div class="sub">Skill・AI系 Instagram 投稿の要約一覧（全162件）。各カードに画像・元ネタURL・ノートへのリンク付き。</div>
+  <div class="sub">Skill・AI系 Instagram 投稿の要約一覧（全172件）。各カードに画像・元ネタURL・ノートへのリンク付き。</div>
 </header>
 <div class="search"><input id="q" type="search" placeholder="キーワード検索（タイトル・作者・内容）"></div>
 <main class="grid" id="grid">
@@ -1973,6 +1973,126 @@
     <div class="links">
       <a href="https://www.instagram.com/reel/DfhHdozg69H/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
       <a href="notes/2026-11-09-DfhHdozg69H.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="anyangle qwen-image-2.1 lora カメラ角度 3dガイド 조한열 @hanyeol110 画像生成 角度制御 精度検証 threads 投稿（韓国語、2連投稿）。qwen-image-2.1 用 lora「anyangle」は、プロンプトでカメラ角度を指定すると画像をその角度に描き直す。ただしプロンプトだけでは制御が弱く、「左へ45°」でも顔は最大14°ほどしか回らなかったため、元画像から作った3dガイド画像を併用する方式にした。精度検証では、30°ガイド→顔28.9°、60°ガイド→55.3°、90°ガイド→75.0°。一周回しても同一人物に見え、コートとポニーテールは維持される。弱点は小物で、角度ごとにテーブルの形が変わり、リップスティックの小さな文字は潰れる。生成は1枚あたり rtx 4090 で約33秒、dgx spark で約22.6秒（turbo、8ステップ）。数値はすべて作者の計測による投稿内表記で裏取りなし。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-24 ・ 조한열 @hanyeol110</div>
+    <h2>AnyAngle — Qwen-Image-2.1用LoRAでカメラ角度を回す（3Dガイド併用の精度検証）</h2>
+    <p>Threads 投稿（韓国語、2連投稿）。Qwen-Image-2.1 用 LoRA「AnyAngle」は、プロンプトでカメラ角度を指定すると画像をその角度に合わせて描き直す。ただしプロンプトだけでは制御が弱く、「左へ45°」と頼んでも顔は最大14°ほどしか回らなかったため、元画像から大まかに作った3Dガイド画像を併用して角度を伝える方式にした。精度検証では、ガイドの角度に対して顔は 30°→28.9°、60°→55.3°、90°→75.0° と回転し、浅い角度ではほぼ正確だが90°では浅くなる。一周回しても同一人物に見え、コートとポニーテールは維持される。弱点は小物で、角度ごとにテーブルの形が変わり、リップスティックに書かれた小さな文字は潰れる。生成時間は1枚あたり RTX 4090 で約33秒、DGX Spark で約22.6秒（Turbo、8ステップ）。数値はすべて作者の計測による投稿内表記で裏取りなし。</p>
+    <div class="links">
+      <a href="https://www.threads.com/@hanyeol110/post/DgFGIHCHWGc" target="_blank" rel="noopener">元ネタ（Threads）</a>
+      <a href="notes/2026-11-24-DgFGIHCHWGc.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="rgb mocap toyxyz 動画 モーションキャプチャ bigger-parker @biggerparker.cos threads 投稿（英語、カルーセル）。動画からモーションキャプチャができる github リポジトリ toyxyz/toyxyz_rgbmocap の紹介。windows ネイティブアプリで、ai 処理はローカル動作。姿勢推定は exmr／flowhmr／gvhmr が基本で、任意で prompthmr、mamma（マルチカメラ）、gem-x、pear（リアルタイムプレビュー）も追加できる。足・手のコンタクト補正、mixamo fbx／vrm／pmx へのリターゲティング、fbx／bvh／vmd 書き出し、blender へのストリーミングと unreal engine への live link（metahuman、顔トラッキング）に対応。作者は開発者ではなく紹介者。スター数などは github で裏取り済み。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-24 ・ Bigger-Parker @biggerparker.cos</div>
+    <h2>動画からモーションキャプチャ「RGB MoCap」— Blender／Unrealへ連携できるWindowsアプリ</h2>
+    <p>Threads 投稿（英語、カルーセル）。動画からモーションキャプチャができる GitHub リポジトリ「toyxyz_RGBMocap」の紹介。RGB MoCap は動画を編集可能な人物アニメーションに変換する Windows ネイティブアプリで、AI 処理はローカルで動く。姿勢推定は ExMR／FlowHMR／GVHMR が基本で、任意で PromptHMR、MAMMA（マルチカメラ用）、GEM-X、PEAR（リアルタイムプレビュー）も追加できる。足・手のコンタクト補正、Mixamo FBX／VRM／PMX へのリターゲティング、FBX／BVH／VMD 書き出しに対応し、Blender へのストリーミングや Unreal Engine への Live Link（MetaHuman、顔トラッキング含む）も可能。作者は開発者ではなく紹介者で、コメント欄でその旨を補足している。リポジトリは 2026-10-26 作成、2026-11-24 時点でスター約3,200（GitHub で裏取り済み）。</p>
+    <div class="links">
+      <a href="https://www.threads.com/@biggerparker.cos/post/DgHVKBLD7Id" target="_blank" rel="noopener">元ネタ（Threads）</a>
+      <a href="notes/2026-11-23-DgHVKBLD7Id.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="動画を高く見せる10エフェクトのclaude skill zeeshan ahmed @zeeuiux skill集 カルーセル投稿『make your video look expensive』。自分のトーキングヘッド動画を素材に、claude の skill で映画風の映像エフェクトを名前指定で適用する仕組み。クリップを送ってエフェクト名を選ぶだけで残りは claude が処理する。エフェクトは bokeh（レンズボケ）、noir（白黒）、spotlight、cinema（カラーグレード）、glow、window（窓光）、halo、edge（リムライト）、bloom、grain（フィルムグレイン、必ず最後）の10種で、『full cinema』と言えば全適用もできる。冒頭は総覧動画、続く10枚が各エフェクトの before/after スライダー比較（指定スライド img_index=4 は cinema の枚と推定）。skill 本体は『pro』コメントで dm 無料配布。">
+  <div class="thumb"><iframe src="https://www.instagram.com/p/DgIjPjhAOiP/embed" loading="lazy" scrolling="no" title="動画を「高く見せる」10エフェクトのClaude Skill"></iframe></div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-25 ・ Zeeshan Ahmed @zeeuiux</div>
+    <h2>動画を「高く見せる」10エフェクトのClaude Skill（名前で選ぶだけ）</h2>
+    <p>カルーセル投稿『Make your video look expensive』。自分のトーキングヘッド動画を素材に、Claude の Skill で映画風の映像エフェクトを名前指定で適用する仕組みの紹介。クリップを送ってエフェクト名を選ぶだけで、残りは Claude が処理するという。エフェクトは Bokeh（レンズボケ）、Noir（白黒）、Spotlight、Cinema（カラーグレード）、Glow、Window（窓光のキーライト）、Halo、Edge（リムライト）、Bloom、Grain（フィルムグレイン、必ず最後に適用）の10種で、「Full Cinema」と言えば全適用もできる。冒頭は各エフェクトを切り替える総覧動画、続く10枚が各エフェクトの before/after スライダー比較で、指定スライド img_index=4 は Cinema の個別スライドと推定（単体画像は直接取得できず推定）。Skill 本体は投稿には含まれず、「PRO」とコメントすると DM で無料配布される形式。</p>
+    <div class="links">
+      <a href="https://www.instagram.com/p/DgIjPjhAOiP/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
+      <a href="notes/2026-11-24-DgIjPjhAOiP.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="ai動画が化ける「修正指示36選」ai動画研究所 | creator'zz @_creatorzz_ x投稿（添付は静止画4枚の一覧表）。ai動画の「なんか不自然」「思い通りに動かない」を直すための修正指示36選。各項目はng画像→ok画像の比較と「修正指示：」の一文で構成され、1枚9項目×4枚=36項目。第1章 人物・動き（01-09）は全文取得: 01 表情「感情に合わせて表情を変え、自然な変化をつける」02 目線「視線の方向と見つめる対象を明確に指定する」03 まばたき「不自然な連続まばたきを避け、自然な間隔にする」04 口元「セリフに合わせて口の開閉を自然に整える」05 手指「指の本数・関節・向きを自然に整える」06 歩行「足運びと重心移動を揃え、歩行を安定させる」07 接地「足裏の接地を安定させ、浮いて見える不自然さをなくす」08 衣装「衣装の動きを自然にし、風や動作との一体感を出す」09 人物の一貫性「同一人物として、顔の特徴・髪型・雰囲気を一貫させる」。第2章 カメラ・構図（10-18）は部分のみで、全文は 10 手ブレ「意図しないブレを抑え、安定した動きにする」13 画角「シーンの意図に合った画角を選ぶ」16 水平線「カメラの傾きを直し、水平を保つ」の3項目。19-36（3・4枚目）は未取得。あわせて「ai動画で稼ぐための実践ガイド」の無料配布告知（販促）。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-20 ・ AI動画研究所 | CREATOR'ZZ @_creatorzz_</div>
+    <h2>AI動画が化ける「修正指示36選」</h2>
+    <p>X投稿（2026-11-20 16:58、添付は静止画4枚の一覧表）で提示された、AI動画の「なんか不自然」「思い通りに動かない」を直すための修正指示36選。各項目はNG画像→OK画像の比較と「修正指示：」の一文で構成され、1枚9項目×4枚=36項目。第1章 人物・動き（01-09）は全文取得できた: 01 表情「感情に合わせて表情を変え、自然な変化をつける」、02 目線「視線の方向と見つめる対象を明確に指定する」、03 まばたき「不自然な連続まばたきを避け、自然な間隔にする」、04 口元「セリフに合わせて口の開閉を自然に整える」、05 手指「指の本数・関節・向きを自然に整える」、06 歩行「足運びと重心移動を揃え、歩行を安定させる」、07 接地「足裏の接地を安定させ、浮いて見える不自然さをなくす」、08 衣装「衣装の動きを自然にし、風や動作との一体感を出す」、09 人物の一貫性「同一人物として、顔の特徴・髪型・雰囲気を一貫させる」。第2章 カメラ・構図（10-18）は部分取得のみで、全文が取れたのは 10 手ブレ「意図しないブレを抑え、安定した動きにする」、13 画角「シーンの意図に合った画角を選ぶ」、16 水平線「カメラの傾きを直し、水平を保つ」の3項目（11・14・17 は途中まで、12・15・18 は未確認）。19-36（3・4枚目）は未取得で、推測では補っていない。取得は2026-11-25にログインなし表示。本文と自己返信は全文で、自己返信は「AI動画で稼ぐための実践ガイド」無料配布の告知（元ポストへ【ガイド】とリプする形式、販促）。</p>
+    <div class="links">
+      <a href="https://x.com/_creatorzz_/status/2123687480394170522" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-20-2123687480394170522.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="claude codeに「42人のai社員」を雇うセットアップ sarvesh thakur @sarveshthakur.ai カルーセル（全7枚）。claude code の中に42個のツール／プラグインを「ai社員」として雇い入れ、5部門に編成した自分のワークフローの紹介。各ツールに番号・役割名・機能説明が付く。部門は build & test（8件: superpowers、gstack、github cli、playwright）、design & animate（9件: figma、hyperframes、ffmpeg）、research & sell（8件: perplexity、apify、gemini）、make the posts（8件: gpt image、elevenlabs、python）、run the office（9件: notion、gmail、node.js、ollama）で合計42。全件のインストール手順と公式リンクは「setup」コメントで dm 配布（未回収）。指定スライド img_index=3 は第3部門 research & sell の枚と推定。">
+  <div class="thumb"><iframe src="https://www.instagram.com/p/DfXbKHUmSeM/embed" loading="lazy" scrolling="no" title="Claude Codeに「42人のAI社員」を雇うセットアップ"></iframe></div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-25 ・ Sarvesh Thakur | AI @sarveshthakur.ai</div>
+    <h2>Claude Codeに「42人のAI社員」を雇うセットアップ（5部門編成のツール集）</h2>
+    <p>カルーセル投稿（全7枚）。「I hired 42 AI employees inside Claude Code」— Claude Code の中に42個のツール／プラグインを「AI社員」として雇い入れ、5部門に編成した自分のワークフローの紹介。各ツールには番号・アイコン・ツール名・役割名・機能説明が付き、一部には呼び出し回数も表示される。部門構成は Build & Test（8件: Superpowers、gstack、GitHub CLI、Playwright）、Design & Animate（9件: Figma、HyperFrames、ffmpeg）、Research & Sell（8件: Perplexity、Apify、Gemini）、Make the Posts（8件: GPT Image、ElevenLabs、Python）、Run the Office（9件: Notion、Gmail、Node.js、Ollama）で合計42件。締めは「42 hires. Pick your first.」で、全42件のインストール手順と公式リンクは「setup」とコメントすると DM で配布される形式（未回収）。指定スライド img_index=3 は第3部門「Research & Sell」のスライドと推定（単体画像は直接取得できず、メディア理解のスライド順からの推定）。</p>
+    <div class="links">
+      <a href="https://www.instagram.com/p/DfXbKHUmSeM/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
+      <a href="notes/2026-11-25-DfXbKHUmSeM.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="紙の飛び出す世界をコードで作るclaude skill「papercraft」ai adventurer @aiadventureryt リール動画『paper pop-up worlds, made with claude』。印刷した紙のパーツがヒンジで立ち上がる飛び出す絵本風のミニチュア世界を、claude code の skill でコードから生成し動画にレンダリングする仕組み。画像生成器は使わず全てコード。作例は夜明けの灯台の町、雪の村、砂漠の市場。手順は github リンクをコピー→claude code に貼って『install this skill』→『紙で』と前置きして依頼。リンクは『paper』コメントで dm 配布だが、動画内に github.com/xikhar/papercraft が表示され特定できた。リポジトリ裏取り済み（mit、スター661、three.js ベース、capture.py で mp4 書き出し、npx skills add xikhar/papercraft）。">
+  <div class="thumb"><iframe src="https://www.instagram.com/reel/DgEuYVtBdr6/embed" loading="lazy" scrolling="no" title="紙の飛び出す世界をコードで作るClaude Skill「papercraft」"></iframe></div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-25 ・ AI Adventurer @aiadventureryt</div>
+    <h2>紙の飛び出す世界をコードで作るClaude Skill「papercraft」</h2>
+    <p>リール動画『Paper pop-up worlds, made with Claude』。印刷した紙のパーツがヒンジで立ち上がる「飛び出す絵本」風のミニチュア世界を、Claude Code の Skill でコードから生成し動画にレンダリングする仕組みの紹介で、画像生成器は使わず全てコードで作る点が売り。作例は夜明けに目覚める灯台の町、雪の村、砂漠の市場の3つ。手順は ①GitHub リンクをコピー、②Claude Code に貼って「install this skill」と入力、③「紙で何か」を前置きして作りたいものを頼む、の3ステップ。リンクは「PAPER」とコメントすると DM 配布される形式だが、動画内にリポジトリ github.com/xikhar/papercraft が表示されていたため特定できた。リポジトリは裏取り済み（2026-11-25確認: 公開・MIT、スター661／フォーク71、2026-11-21作成）。three.js ベースで紙の質感・ヒンジの動き・ティルトシフトのマクロレンズ表現を数値化した SKILL.md と lib、capture.py（静止画・MP4書き出し）を含み、インストールは `npx skills add xikhar/papercraft`。Agent Skills 対応の他エージェントでも使えるとしている。</p>
+    <div class="links">
+      <a href="https://www.instagram.com/reel/DgEuYVtBdr6/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
+      <a href="notes/2026-11-22-DgEuYVtBdr6.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="claudeと解いたリーマン予想の証明（lean・mathlibが正しさを認証）foorce.ai @foorce.studio カルーセル（全2枚）。1859年に提起された数学の難問「リーマン予想」について、anthropic 所属の数学者レヴェント・アルポゲ（levent alpöge）氏が claude と取り組んだ証明を公開したというニュース。claude は証明をコードに書き起こすだけでなく鍵となるアイデアも提案し、公開後は第三者の専門家らが複数ツールで検証して内容が元の予想と一致し論理が正しいことを確認したと発表。出典は lean・mathlib 共同声明。裏取り済み（2026-11-26確認）: 2026-11-20に lean 4 の形式証明（約1,700万行・175,187モジュール、mathlib の riemannhypothesis 定義そのものが対象、一般化リーマン予想まで含む）を公開し、翌11月21日に lean fro と mathlib initiative が共同声明で正しさを認証。ただしクレイ数学研究所は未解決のままで、数学者が証明の全容を理解した段階ではない。指定スライド img_index=2 は0始まりでは存在せず（全2枚）、2枚目（index 1）が説明スライド。">
+  <div class="thumb"><iframe src="https://www.instagram.com/p/DgCp3rJE_8L/embed" loading="lazy" scrolling="no" title="Claudeと解いたリーマン予想の証明（Lean・Mathlibが正しさを認証）"></iframe></div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-22 ・ FOORCE.AI @foorce.studio</div>
+    <h2>Claudeと解いたリーマン予想の証明（Lean・Mathlibが正しさを認証）</h2>
+    <p>カルーセル投稿（全2枚）のAIニュース。1859年に提起された数学の難問「リーマン予想」について、Anthropic 所属の数学者レヴェント・アルポゲ氏が Claude と取り組んだ証明を公開した。Claude は証明をコードに書き起こすだけでなく鍵となるアイデアも提案し、公開後は第三者の専門家らが複数のツールで検証して、証明内容が元の予想と一致し論理が正しいことを確認したと発表された。出典は「Lean・Mathlib 共同声明」。裏取り済み（2026-11-26確認）: アルポゲ氏は2026-11-20に Lean 4 の形式証明（約1,700万行・175,187モジュール、証明対象は Mathlib の `RiemannHypothesis` 定義そのもの、ディリクレ L 関数の一般化リーマン予想まで含む）を公開し、翌11月21日に Lean FRO と Mathlib Initiative が共同声明で正しさを認証した。検証は命題の定式化・コンパイル再現性・命題の一致照合・Lean カーネルと独立チェッカーでの受理の4基準。ただしクレイ数学研究所の公式表記は未解決のままで、数学者が証明の全容を理解した段階ではない点に留保が要る。指定スライド img_index=2 は0始まりでは存在せず（カルーセル全2枚）、2枚目（index 1）が証明の説明文と1859年の原論文674ページの画像のスライド。</p>
+    <div class="links">
+      <a href="https://www.instagram.com/p/DgCp3rJE_8L/" target="_blank" rel="noopener">元ネタ（Instagram）</a>
+      <a href="notes/2026-11-22-DgCp3rJE_8L.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="fable 5.2で3dアニメーションを作るためのgithubリポジトリ12選 nicco @0xnicc0 x投稿（添付は動画32秒）。aiエージェントに本物の重力・光・音を与えるリポジトリ12件を工程順に並べたリスト。three.js（3dシーン）、blender（アニメーションとレンダリング）、bullet physics（剛体と衝突）、three-mesh-bvh（レイキャスト高速化）、react postprocessing（ブルーム・被写界深度）、gl-react（webglシェーダー合成）、anime.js（タイムライン）、motion canvas（コード駆動モーショングラフィックス）、remotion skills（エージェント向けガイダンス）、tone.js（音）、ffmpeg.wasm（ブラウザ内動画処理）、ffmpeg（エンコード・配信）。締めは「sketch → shape → physics → polish → render」。引用先は seeco @seeconvm の x article「motion design with fable 5.2」コースへの案内。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-25 ・ nicco @0xnicc0</div>
+    <h2>Fable 5.2で3Dアニメーションを作るためのGitHubリポジトリ12選</h2>
+    <p>X投稿（2026-11-25 21:30、添付は動画32秒）で提示された、Fable 5.2で3Dアニメーションを作るためのGitHubリポジトリ12件のリスト。AIエージェントに「本物の重力・光・音」を与える道具立てで、工程順に three.js（インタラクティブ3Dシーン）、Blender（3Dアニメーションとレンダリング）、Bullet Physics（剛体と衝突判定）、three-mesh-bvh（レイキャスト高速化）、React Postprocessing（ブルーム・被写界深度・フィルム調）、gl-react（ReactでWebGLシェーダーを合成）、anime.js（タイムラインとスタッガードモーション）、Motion Canvas（コード駆動のモーショングラフィックス）、Remotion Skills（動画向けエージェントガイダンス）、Tone.js（シンセとサウンド）、ffmpeg.wasm（ブラウザ内動画処理）、FFmpeg（エンコード・配信）。締めの合言葉は「Sketch → shape → physics → polish → render」。添付動画は12個のガラスドームに各リポジトリの3Dオブジェクトを収めたプライズマシン風シーンを巡回する作例デモ。引用先は seeco（@seeconvm）の X Article「Motion Design with Fable 5.2: From One Prompt to a Finished Film」コース（20セクション、開始プロンプト全文を含む）への案内。</p>
+    <div class="links">
+      <a href="https://x.com/0xnicc0/status/2125567907522379841" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-25-2125567907522379841.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="fable 5.2にuiを作らせるためのgithubリポジトリ15選 clayo @0xclayo x投稿（添付は動画22秒）。fable 5.2（claude系エージェント）にuiを作らせるためのリポジトリ15件のリスト。anthropic skills（frontend-design、手作り感のあるui）、shadcn/ui（自分で所有できるコンポーネント）、radix primitives（アクセシブルなメニュー・ダイアログ・ポップオーバー）、cmdk（⌘kコマンドメニュー）、impeccable（デザインの仕上げと批評）、magic ui（アニメーションビーム、シマー、マーキー）、sonner（積み重なるトースト）、tailwind css（スタイリング）、storybook（全状態を一か所に）、vaul（モバイルドロワー）、tabler icons（5,900超のラインアイコン）、tremor（ダッシュボードブロックとkpiカード）、recharts（react向けチャート）、mantine（120超のコンポーネントとフック）、daisyui（tailwindのテーマを1クラスで）。締めは「skill → component → style → animate → chart → shipped」。数値は投稿内表記。引用先は同作者のx article「directing fable 5.2」。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-25 ・ clayo @0xclayo</div>
+    <h2>Fable 5.2にUIを作らせるためのGitHubリポジトリ15選</h2>
+    <p>X投稿（2026-11-25 11:48、添付は動画22秒）で提示された、Fable 5.2（Claude系エージェント）にUIを作らせるためのGitHubリポジトリ15件のリスト。「I copy any UI I see now, these 15 GitHub repos are the reason」と題し、デザインSkillからコンポーネント、アニメーション、チャートまでUI構築の工程をカバーする。Anthropic Skills（frontend-design、手作り感のあるUI）、shadcn/ui（自分で所有できる美しいコンポーネント）、Radix Primitives（アクセシブルなメニュー・ダイアログ・ポップオーバー）、cmdk（⌘Kコマンドメニュー）、Impeccable（デザインの仕上げと批評）、Magic UI（アニメーションビーム、シマー、マーキー）、Sonner（美しく積み重なるトースト）、Tailwind CSS（マークアップを離れずにスタイリング）、Storybook（全コンポーネント・全状態を一か所に）、Vaul（ネイティブ感のあるモバイルドロワー）、Tabler Icons（5,900超のクリーンなラインアイコン）、Tremor（ダッシュボードブロックとKPIカード）、Recharts（React向けチャート）、Mantine（120超のコンポーネントとフック）、daisyUI（Tailwindのテーマを1クラスで）。締めの合言葉は「Skill → component → style → animate → chart → shipped」。添付動画は15リポジトリのUIコンポーネントカードを並べたボードを縦スクロールするショーケース。アイコン数・コンポーネント数は投稿内表記。引用先は同作者の X Article「Directing Fable 5.2: How to Get a Real Film Out of One Prompt」への案内。</p>
+    <div class="links">
+      <a href="https://x.com/0xclayo/status/2124487017446654447" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-25-2124487017446654447.md">ノートを開く</a>
+    </div>
+  </div>
+</article>
+<article class="card" data-text="fable 5.2／opus 5.5でアニメーションを作るためのgithubリポジトリ18選 florence @flxrnc x投稿（添付は動画33秒）。aiエージェントでアニメーション／フィルムを作るためのリポジトリ18件のリスト。huashu-motion（音楽も書くローンチフィルム）、anything2explainer（ナレーション付き解説動画）、openscreen（デモ風の画面録画）、onetake（ワンカットの連続ショット）、lemo-opuscar（99種のシネマティックルック）、effectcraft（無料の本格vfx）、gsap（タイムライン）、three.js（webから直接3dフィルム）、blender mcp（claudeがblenderを担当）、comfyui（ai画像エンジン）、hyperframes（htmlで作って動画書き出し）、remotion（webページのように編集できる動画）、remotion skills（公式のやり方を教えるエージェント）、impeccable（最終仕上げまで磨く）、taste skill（エージェントにセンスを与える）、hallmark（aiっぽく見せない）、open design（サブスクなしのaiデザインスタジオ）、ffmpeg（クリーンなmp4書き出し）。締めは「topic → script → motion → score → export」。urlは確認できた9件のみ。引用先は同作者のx article「the fable 5.2 motion playbook」。">
+  <div class="noimg">画像なし</div>
+  <div class="body">
+    <div class="meta">登録日: 2026-11-22 ・ Florence @flxrnc</div>
+    <h2>Fable 5.2／Opus 5.5でアニメーションを作るためのGitHubリポジトリ18選</h2>
+    <p>X投稿（2026-11-22 5:00、添付は動画33秒）で提示された、Fable 5.2／Opus 5.5（Claude系エージェント）でアニメーション／フィルムを作るためのGitHubリポジトリ18件のリスト。「I make a new animation every day now, these 18 GitHub repos are my secret」と題し、解説動画生成から書き出しまで制作工程をカバーする。huashu-motion（自分で音楽も書くローンチフィルム）、anything2explainer（トピックを選ぶとナレーション付き解説動画）、OpenScreen（磨き上げたデモ風の画面録画）、onetake（ワンカットの連続ショットで全体を構築）、Lemo-Opuscar（99種のシネマティックルックでコード撮影するエージェント）、EffectCraft（無料の本格 VFX ツールキット）、GSAP（あらゆる動きを滑らかにするタイムライン）、Three.js（Web ページから直接 3D フィルム）、Blender MCP（Claude が Blender の重い 3D 作業を担当）、ComfyUI（フィルムの背後の AI 画像エンジン）、HyperFrames（HTML で作って動画として書き出し）、Remotion（Web ページのように編集できる動画）、Remotion Skills（公式のやり方で動画を教えるエージェント）、Impeccable（全フレームを最終仕上げまで磨く）、Taste Skill（エージェントに本物のセンスを与える）、Hallmark（AI っぽく見せない）、Open Design（サブスクなしの自分の AI デザインスタジオ）、FFmpeg（クリーンな MP4 書き出し）。締めの合言葉は「Topic → script → motion → score → export」。添付動画は3Dの街マップ上を赤いマーカーが軌跡を残して進むデモとツール紹介カード。URLは取得内容で確認できた9件のみ記載し、残り9件は名称のみ（推測で補っていない）。引用先は同作者の X Article「The Fable 5.2 Motion Playbook: One Prompt, One Film」への案内。</p>
+    <div class="links">
+      <a href="https://x.com/flxrnc/status/2124231511499026436" target="_blank" rel="noopener">元ネタ（X）</a>
+      <a href="notes/2026-11-22-2124231511499026436.md">ノートを開く</a>
     </div>
   </div>
 </article>
