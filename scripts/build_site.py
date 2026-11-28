@@ -611,8 +611,8 @@ def build_root_index(stats: list[dict[str, Any]]) -> None:
 
 def main() -> None:
     if DIST.exists():
-        shutil.rmtree(DIST)
-    DIST.mkdir(parents=True)
+        shutil.rmtree(DIST, ignore_errors=True)
+    DIST.mkdir(parents=True, exist_ok=True)
 
     # Copy root static files if present
     zip_file = ROOT / "lesson-match-claude-handoff-kit.zip"
@@ -628,7 +628,7 @@ def main() -> None:
         # Copy assets
         assets_src = ROOT / cdir / "assets"
         if assets_src.exists():
-            shutil.copytree(assets_src, out_cat / "assets")
+            shutil.copytree(assets_src, out_cat / "assets", dirs_exist_ok=True)
 
         # Parse notes (newest first by date/filename)
         md_files = sorted((ROOT / cdir / "notes").glob("*.md"), reverse=True)
